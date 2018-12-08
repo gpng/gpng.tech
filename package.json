@@ -4,11 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "next": "^6.1.2",
+    "@zeit/next-css": "^1.0.1",
+    "next": "^7.0.2",
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.6.2",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
-    "styled-jsx": "^3.0.2"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-jsx": "^3.1.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
