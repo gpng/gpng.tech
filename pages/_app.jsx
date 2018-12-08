@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import App, { Container } from 'next/app';
 
 import basicCSS from '../stylesheets/basic';
@@ -8,6 +9,11 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <Container>
+        <Head>
+          <title>
+Gerald Png.
+          </title>
+        </Head>
         <Component {...pageProps} />
         <style jsx>
           {`

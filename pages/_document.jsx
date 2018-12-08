@@ -26,7 +26,6 @@ export default class EscapeDocument extends Document {
             name="google-site-verification"
             content="yrcz7s6i7CNEnXqBzVJ6p8NK6KrajYyXHUY1C4gFKLs"
           />
-          <title>Gerald Png.</title>
         </Head>
         <body>
           <Main />
