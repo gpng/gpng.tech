@@ -1,4 +1,5 @@
 {
   "version": 2,
-  "alias": "gpng.tech"
+  "alias": "gpng.tech",
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
 }
