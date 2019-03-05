@@ -38,6 +38,10 @@ const Header = ({ onClick }) => (
           color: ${COLORS.SECONDARY};
         }
 
+        .button:focus {
+          outline: none;
+        }
+
         @media (max-width: 576px) {
           .button {
             font-size: 0.8em;

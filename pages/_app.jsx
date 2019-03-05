@@ -10,9 +10,7 @@ class MyApp extends App {
     return (
       <Container>
         <Head>
-          <title>
-Gerald Png.
-          </title>
+          <title>Gerald Png.</title>
         </Head>
         <Component {...pageProps} />
         <style jsx>

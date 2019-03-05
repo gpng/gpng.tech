@@ -4,6 +4,4 @@ import Header from './Header';
 import Introduction from './Introduction';
 import Portfolio from './Portfolio';
 
-export {
-  Contact, Experience, Header, Introduction, Portfolio,
-};
+export { Contact, Experience, Header, Introduction, Portfolio };

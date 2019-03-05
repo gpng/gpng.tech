@@ -1,4 +1,4 @@
-import css from 'styled-jsx/css';
+import css from 'styled-jsx/css'; // eslint-disable-line import/no-extraneous-dependencies
 import { COLORS } from '../constants/styles';
 import 'normalize.css';
 
@@ -17,7 +17,6 @@ const basic = css.global`
 
   body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
     color: ${COLORS.DARK};
     background: ${COLORS.LIGHT};
   }

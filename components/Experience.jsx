@@ -7,12 +7,9 @@ const Experience = React.forwardRef((props, ref) => (
   <div className="root" ref={ref}>
     <Title label="Experience" />
     WIP
-    <br />
-- smart
-    <br />
-- ocbc
-    <br />
-- add-venture
+    <br />- smart
+    <br />- ocbc
+    <br />- add-venture
     <style jsx>
       {`
         .root {

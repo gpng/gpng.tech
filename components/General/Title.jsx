@@ -6,10 +6,7 @@ import { COLORS } from '../../constants/styles';
 
 const Title = ({ label }) => (
   <div className="root">
-    <span className="label">
-      {label}
-    </span>
-
+    <span className="label">{label}</span>
     <style jsx>
       {`
         .root {

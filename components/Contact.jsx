@@ -7,12 +7,9 @@ const Contact = React.forwardRef((props, ref) => (
   <div className="root" ref={ref}>
     <Title label="Contact" />
     WIP
-    <br />
-- github
-    <br />
-- linkedin
-    <br />
-- email
+    <br />- github
+    <br />- linkedin
+    <br />- email
     <style jsx>
       {`
         .root {
