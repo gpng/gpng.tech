@@ -51,6 +51,7 @@ const ProjectCard = ({ image, children, title, skills, site, source }) => (
           display: flex;
           justify-content: flex-end;
           border-radius: 0.2em;
+          margin-top: 1em;
         }
 
         .image-container {
@@ -61,6 +62,12 @@ const ProjectCard = ({ image, children, title, skills, site, source }) => (
           width: 30%;
           height: 100%;
           overflow: hidden;
+        }
+
+        .image-container > img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
         }
 
         .content {

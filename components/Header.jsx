@@ -6,14 +6,11 @@ import { COLORS } from '../constants/styles';
 
 const Header = ({ onClick }) => (
   <div className="root">
-    <button type="button" className="button" onClick={() => onClick('portfolio')}>
-      PORTFOLIO
+    <button type="button" className="button" onClick={() => onClick('work')}>
+      WORK
     </button>
-    <button type="button" className="button" onClick={() => onClick('experience')}>
-      EXPERIENCE
-    </button>
-    <button type="button" className="button" onClick={() => onClick('contact')}>
-      CONTACT
+    <button type="button" className="button" onClick={() => onClick('projects')}>
+      PROJECTS
     </button>
     <style jsx>
       {`

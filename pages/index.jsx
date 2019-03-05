@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
 // components
-import { Header, Introduction, Portfolio } from '../components';
+import { Header, Introduction, Work, Projects } from '../components';
 
 class Index extends Component {
   constructor(props) {
     super(props);
-    this.portfolioRef = React.createRef();
+    this.workRef = React.createRef();
+    this.projectsRef = React.createRef();
     // bindings
     this.handleClick = this.handleClick.bind(this);
   }
@@ -20,10 +21,16 @@ class Index extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container index-root">
         <Header onClick={this.handleClick} />
         <Introduction />
-        <Portfolio ref={this.portfolioRef} />
+        <Work ref={this.workRef} />
+        <Projects ref={this.projectsRef} />
+        <style jsx>{`
+          .index-root {
+            padding-bottom: 2em;
+          }
+        `}</style>
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import Contact from './Contact';
-import Experience from './Experience';
 import Header from './Header';
 import Introduction from './Introduction';
-import Portfolio from './Portfolio';
+import Work from './Work';
+import Projects from './Projects';
 
-export { Contact, Experience, Header, Introduction, Portfolio };
+export { Contact, Header, Introduction, Work, Projects };
